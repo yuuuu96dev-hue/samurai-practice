@@ -12,5 +12,5 @@ const studentA = {
     name: '侍太郎',
     score: 70,
 };
-let resultMessage = getResultMessage(studentA.name, studentA.score);
+const resultMessage = getResultMessage(studentA.name, studentA.score);
 console.log(resultMessage);
